@@ -1,0 +1,250 @@
+* {
+    margin: 0 auto  ;
+    padding: 0;
+   
+    font-family: 'monsterrat';
+}
+
+.promo_1 {
+    background-image: url(./img/Group\ 8.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.header_centre {
+    display: flex;
+    margin-left: 342px;
+  
+    text-decoration: none;
+
+
+
+}
+
+.bold {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.7865px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header_centre{
+  gap: 10px;
+  width: 390px;
+}
+
+.link  {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.7865px;
+    line-height: 19px;
+
+    color: #000000;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    padding: 26px 96px;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+
+.header_left img {
+    width: 129.2px;
+    height: 51.31px;
+}
+
+p {
+    font-family: 'Montserrat';
+}
+
+.header_right_number {
+    width: 500px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.7865px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+    padding-left: 100px;
+}
+
+.box img{
+    width: 96px;
+    height: 96px;
+padding-left: 103px ;
+margin-top: 146px;
+}
+
+
+h1{
+    padding-left: 99px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 59px;
+
+color: #000000;
+}
+
+
+.button a{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 26px;
+
+color: #000000;
+text-decoration: none;
+
+}
+
+.button{
+  display: flex;
+  align-items: center;
+    width: 250px;
+    height: 50px;
+ border-radius: 50px;
+    margin-left: 99px;
+    margin-top: 55px;
+    background: linear-gradient(99.51deg, #C16767 0.96%, #FF0000 80.06%);
+
+}
+
+
+
+.button:hover{
+    background: linear-gradient(99.51deg, #FF0000 0.1%, #C16767 69.06%);
+transition: 0.9s;
+width: 260px;
+height: 60px;
+margin-top: 45px;
+    content: 'Закажите';
+}
+
+.dostavka{
+    display: flex;
+}
+
+.dostavka img{
+    margin-left: 99px;
+    margin-top: 70px;
+    width: 70px;
+height: 72px;
+    
+}
+
+.dostavka_p{
+padding-right: 1200px;
+margin-top: 70px;
+font-weight: 900;
+font-size: 17.2372px;
+line-height: 21px;
+
+color: #000000;
+}
+
+
+.burger img{
+    position: absolute;
+    width: 720.01px;
+    height: 535px;
+    left: 600px;
+    top: 188px;
+    
+}
+
+.burger_1{
+    position: absolute;
+width: 672px;
+height: 669px;
+left: 800px;
+top: 97px;
+}
+
+.tomato img{
+    position: absolute;
+width: 200px;
+height: 200px;
+left: 1200px;
+top: 501px;
+}
+
+
+
+@media (max-width:767px)
+
+{
+    .container{
+        max-width: 767px;
+    }
+
+    .tomato{
+        display: none;
+    }
+
+    .burger_1{
+        display: none;
+    }
+
+    .burger{
+        display: none;
+    }
+
+  .header_centre{
+    margin-left: 50px;
+    position: none;
+  }
+    
+
+  header{
+    width: 560px;
+  }
+
+  .promo_1{
+    background-size: cover;
+    width: 767px;
+  }
+
+  .header_right_number{
+    display: none;
+  }
+
+  .dostavka{
+   display: none;
+  }
+}
+
+
+@media (max-width:580px) {
+    .container{
+        max-width: 100%;
+    }
+
+    header{
+        width: 440px;
+        text-align: center;
+      }
+
+      .promo_1{
+        width: 580px;
+      }
+}
+
